@@ -3,10 +3,10 @@
     <div class="flexSobremi">
         <div class="divImagen"><img src="../../assets/img/yo.jpeg" class="imagenProfile"></div>
         <div class="divContenido">
-            <h1 style="border-bottom: 5px solid  #cf9a64; display: inline-block;">María Cristina Sánchez Acosta</h1>
-            <h3 style="margin-top: 3%; margin-bottom: 1.5%;">Desarrolladora Full Stack</h3>
-            <p>Soy tecnico superior en desarrollo de aplicaciones web, apasionada por la programacion y por seguir adquiriendo nuevos conocimiendos. Soy una persona muy activa y con una actitud positiva, entre mis aptitudes destacan mi organicacion, desempeño, flexibilidad, optimizacion en el tiempo y en el trabajo </p>
-            <p>Disfruto tanto del desarrollo frontend como del backend. Desde diseñar interfaces atractivas y funcionales hasta construir la lógica que las hace funcionar, siempre estoy buscando nuevos desafíos y oportunidades para aprender y crecer en el mundo del desarrollo web.</p>
+            <h1 style="border-bottom: 5px solid  #cf9a64; display: inline-block;" class="titleSobreMi">María Cristina Sánchez Acosta</h1>
+            <h3 style="margin-top: 3%; " class="dev">Desarrolladora Full Stack</h3>
+            <p class="contenido">Soy tecnico superior en desarrollo de aplicaciones web, apasionada por la programacion y por seguir adquiriendo nuevos conocimiendos. Soy una persona muy activa y con una actitud positiva, entre mis aptitudes destacan mi organicacion, desempeño, flexibilidad, optimizacion en el tiempo y en el trabajo </p>
+            <p class="contenido">Disfruto tanto del desarrollo frontend como del backend. Desde diseñar interfaces atractivas y funcionales hasta construir la lógica que las hace funcionar, siempre estoy buscando nuevos desafíos y oportunidades para aprender y crecer en el mundo del desarrollo web.</p>
         </div>
     </div>
    </div>
@@ -19,7 +19,7 @@
               class="square"
               *ngFor="let square of squaress; let i = index"
             >
-              <img style="width: 2.5cm;" src="../../assets/img/{{square.icon}}">
+              <img class="iconImage" src="../../assets/img/{{square.icon}}">
             </div>
           </div>
     </div>
@@ -29,9 +29,9 @@
     <h1 style="border-bottom: 5px solid  #cf9a64; display: inline-block;">Formación academica</h1>
     <div class="flexFormacion">
         <div class="divContenidoFormacion">
-            <h2>Tecnico superior en Desarrollo de aplicaciones web</h2>
-            <p style="font-size: 0.5cm;">IES Jacarandá 2022-2024</p>
-            <ul>
+            <h2 class="titleForm">Tecnico superior en Desarrollo de aplicaciones web</h2>
+            <p style="font-size: 0.5cm;" class="subTitle">IES Jacarandá 2022-2024</p>
+            <ul class="contenido">
                 <li><strong>Conocimientos adquiridos</strong> </li>
                 <p> Angular, Angular 17, JavaScript, TypeScript, HTML5, CSS, React, NodeJs, ExpressJs, 
                     Java, Java Orientada a Objetos, Python, SpringBoot, JSP, Oracle, MySQL, MongoDB, PL/SQL,
@@ -41,7 +41,8 @@
                     trabajo, capacidad de rápido aprendizaje, resolución de problemas </p>
             </ul>
         </div>
-        <div class="divImagenFormacion"><img src="../../assets/img/desarrollo-aplicaciones-web.jpg" class="imagenformacion"></div>
+        <div class="divImagenFormacion"><img src="../../assets/img/des.jpg" class="imagenformacion"></div>
+        <div class="divImagenFormacionCorta"><img src="../../assets/img/desCosta.jpg" class="imagenformacionCorta"></div>
     </div>
    </div>
 
@@ -49,9 +50,9 @@
     <h1 style="border-bottom: 5px solid  #cf9a64; display: inline-block;">Experiencia laboral</h1>
     <div class="flexExperiencia">
         <div class="divExperiencia">
-            <h3><strong>Desarrolladora Front-end</strong></h3>
-            <p>Babel (Sevilla) | Hibrido | Abril 2024 - Junio 2024</p>
-            <ul>
+            <h3 class="titleEx"><strong>Desarrolladora Front-end</strong></h3>
+            <p class="contenidoSub">Babel (Sevilla) | Hibrido | Abril 2024 - Junio 2024</p>
+            <ul class="contenido">
                 <li> Análisis de proyectos antiguos en distintos lenguajes</li>
                 <li> Realización de distintas documentaciones</li>
                 <li> Desarrollo en Angular de proyectos en el departamento de Front-end utilizando
@@ -68,13 +69,13 @@
    <div class="proyectos" id="proyectos">
     <h1  style="border-bottom: 5px solid  #cf9a64; display: inline-block;">Proyectos</h1>
     <div class="flexProyecto">
-        <div class="imagenProyecto"><img src="../../assets/img/proyecto.PNG"></div>
+        <div class="imagenProyecto"><img class="imgP" src="../../assets/img/proyecto.PNG"></div>
         <div class="contenidoProyecto">
-            <h3><strong> Gamer Place</strong></h3>
-            <p style="font-style: italic;">Proyecto creado y diseñado como trabajo de fin de grado</p>
-            <p>Gamer Place es una pagina de compra venta de videojuegos que te permitira comprar tus videojuegos favoritos nuevos o de segunda mano, ademas de darte la posibilidad de vender los videojuegos que ya no utilizas para poder adquirir nuevos. A parte, podras descubrir las opiniones de los demas usuarios y compartir vuestros gustos en el Chat de la pagina, donde los usuarios podran hablar entre ellos como en una comunidad</p>
-            <p><strong> El contenido de esta pagina es completamente ficticio y creado con la finalidad de que sea una pagina funcional por lo que los videojuegos y demas datos son ficticios.</strong></p>
-            <p><strong> Esta pagina esta subida en un servidor gratuito, por lo que la primera carga puede tardar unos minutos</strong></p>
+            <h3 class="titleForm"><strong> Gamer Place</strong></h3>
+            <p class="contenidoSub" style="font-style: italic;">Proyecto creado y diseñado como trabajo de fin de grado</p>
+            <p class="contenido">Gamer Place es una pagina de compra venta de videojuegos que te permitira comprar tus videojuegos favoritos nuevos o de segunda mano, ademas de darte la posibilidad de vender los videojuegos que ya no utilizas para poder adquirir nuevos. A parte, podras descubrir las opiniones de los demas usuarios y compartir vuestros gustos en el Chat de la pagina, donde los usuarios podran hablar entre ellos como en una comunidad</p>
+            <p class="contenido"><strong> El contenido de esta pagina es completamente ficticio y creado con la finalidad de que sea una pagina funcional por lo que los videojuegos y demas datos son ficticios.</strong></p>
+            <p class="contenido"><strong> Esta pagina esta subida en un servidor gratuito, por lo que la primera carga puede tardar unos minutos</strong></p>
         </div>
     </div>
    </div>

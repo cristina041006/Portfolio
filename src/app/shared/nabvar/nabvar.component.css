@@ -11,6 +11,10 @@
     margin-left: 3%;
 }
 
+.puestoMov{
+    display: none;
+}
+
 .oswald {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
@@ -20,4 +24,18 @@
 
 .lista{
     margin-left: 3%;
+}
+
+@media (max-width: 540px) {
+    .puesto{
+        display: none;
+    }
+    .puestoMov{
+        display: contents;
+        font-size: 0.4cm;
+    }
+    .cab{
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -52,6 +52,9 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
+  .iconImage{
+    width: 2.5cm;
+  }
   
   .square:hover {
     transform: scale(1.1); /* Cambio de color al pasar el ratón */
@@ -90,21 +93,29 @@
     justify-content: space-between;
     align-items: flex-start;
     align-content: center;
-    padding-left: 15%;
-    padding-right: 12%;
+    padding-left: 19%;
+ 
     margin-top: 4%;
     text-align: left;
 }
 .divContenidoFormacion{
-    width: 50%;
+    width: 47%;
     margin-top: 2%;
 }
 .divImagenFormacion{
     width: 50%;
+    margin-left: 10%;
+}
+.divImagenFormacionCorta{
+    display: none;
 }
 .imagenformacion{
-    width: 90%;
+    width: 40%;
     border-radius: 20px;
+    
+}
+.imagenformacionCorta{
+   display: none;
     
 }
 
@@ -147,6 +158,9 @@
 .imagenProyecto{
     width: 50%;
 
+}
+.imgP{
+    width: 90%;
 }
 .contenidoProyecto{
     width: 50%;
@@ -192,4 +206,134 @@
     margin: 2%;
     border: 2px solid rgb(30, 147, 230);
     padding: 1%;
+}
+
+@media (max-width: 1000px) {
+    .imagenProfile{
+        margin-top: 25%;
+    }
+    .container {
+        grid-template-columns: repeat(4, 3cm);
+        
+      }
+
+    .imagenformacion{
+        width: 60%;
+      margin-top: 35%;
+      
+    }
+    .divExperiencia{
+        width: 60%;
+    }
+    .imgP{
+        width: 90%;
+        margin-top: 35%;
+    }
+   
+}
+
+@media (max-width: 800px) {
+    .flexSobremi{
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+    .imagenProfile{
+        margin-top: 2%;
+        margin-left: 20%;
+    }
+    .divContenido{
+        width: 70%;
+    }
+    .imagenformacion{
+        display: none;
+    }
+    .imagenformacionCorta{
+        display: block;
+        width: 45%;
+        border-radius: 10px;
+         
+     }
+    .divImagenFormacionCorta{
+        display: contents;
+    }
+    .flexFormacion{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-left: 0%;
+    }
+    .divContenidoFormacion{
+        width: 70%;
+    }
+    .divExperiencia{
+        width: 65%;
+    }
+    .flexProyecto{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgP{
+        margin-top: 0%;
+        margin-bottom: 10%;
+    }
+    .contenidoProyecto{
+        width: 95%;
+    }
+    .imagenProyecto{
+        width: 90%;
+    }
+   
+}
+@media (max-width: 650px) {
+    .square {
+        width: 2cm;
+        height: 2cm;
+    }
+    .iconImage{
+        width: 1.5cm;
+    }
+    .container{
+        grid-gap: 10px;
+        justify-items: center;
+        grid-template-columns: repeat(4, 2cm);
+
+    }
+    .divExperiencia{
+        width: 70%;
+    }
+    
+}
+@media (max-width: 500px) {
+    .titleSobreMi{
+        font-size: 0.5cm;
+    }
+    .dev{
+        font-size: 0.4cm;
+        margin-bottom: 4%;
+    }
+    .contenido{
+        font-size: 0.3cm;
+    }
+    .titleForms{
+        font-size: 0.5cm;
+    }
+    .subTitle{
+        font-size: 0.4cm;
+    }
+    .divExperiencia{
+        width: 75%;
+    }
+    .titleEx{
+        font-size: 0.5cm;
+    }
+    .contenidoSub{
+        font-size: 0.4cm;
+    }
+}
+
+@media (max-width: 400px) {
+    .titleForms{
+        font-size: 0.4cm;
+    }
 }

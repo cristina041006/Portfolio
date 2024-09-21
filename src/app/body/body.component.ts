@@ -38,9 +38,4 @@ export class BodyComponent {
     {icon: 'vs.svg.png', name:'Visual Studio Code'},
   ]
 
-  squares = Array(24).fill(0).map((_, index) => ({
-    icon: `Icon ${index + 1}`,
-    tooltip: `Descripción de Icon ${index + 1}`,
-  }));
-
 }

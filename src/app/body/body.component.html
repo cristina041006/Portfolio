@@ -1,0 +1,105 @@
+<div class="body sora">
+   <div class="inicio" id="inicio">
+    <div class="flexSobremi">
+        <div class="divImagen"><img src="../../assets/img/yo.jpeg" class="imagenProfile"></div>
+        <div class="divContenido">
+            <h1 style="border-bottom: 5px solid  #cf9a64; display: inline-block;">María Cristina Sánchez Acosta</h1>
+            <h3 style="margin-top: 3%; margin-bottom: 1.5%;">Desarrolladora Full Stack</h3>
+            <p>Soy tecnico superior en desarrollo de aplicaciones web, apasionada por la programacion y por seguir adquiriendo nuevos conocimiendos. Soy una persona muy activa y con una actitud positiva, entre mis aptitudes destacan mi organicacion, desempeño, flexibilidad, optimizacion en el tiempo y en el trabajo </p>
+            <p>Disfruto tanto del desarrollo frontend como del backend. Desde diseñar interfaces atractivas y funcionales hasta construir la lógica que las hace funcionar, siempre estoy buscando nuevos desafíos y oportunidades para aprender y crecer en el mundo del desarrollo web.</p>
+        </div>
+    </div>
+   </div>
+
+   <div class="tecnologias">
+    <h1 style="border-bottom: 5px solid   #cf9a64; display: inline-block;">Tecnologias</h1>
+    <div>
+        <div class="container">
+            <div
+              class="square"
+              *ngFor="let square of squaress; let i = index"
+            >
+              <img style="width: 2.5cm;" src="../../assets/img/{{square.icon}}">
+            </div>
+          </div>
+    </div>
+   </div>
+
+   <div class="formacion" id="formacion">
+    <h1 style="border-bottom: 5px solid  #cf9a64; display: inline-block;">Formación academica</h1>
+    <div class="flexFormacion">
+        <div class="divContenidoFormacion">
+            <h2>Tecnico superior en Desarrollo de aplicaciones web</h2>
+            <p style="font-size: 0.5cm;">IES Jacarandá 2022-2024</p>
+            <ul>
+                <li><strong>Conocimientos adquiridos</strong> </li>
+                <p> Angular, Angular 17, JavaScript, TypeScript, HTML5, CSS, React, NodeJs, ExpressJs, 
+                    Java, Java Orientada a Objetos, Python, SpringBoot, JSP, Oracle, MySQL, MongoDB, PL/SQL,
+                     JSON, UML, Texting Unitario, Redes, Diseño de interfaces, Git, Jenkins, Docker, Docker-compose</p>
+                <li><strong>Habilidades adquidas</strong> </li>
+                <p> Trabajo en equipo, autonomía, manejo de grandes cargas de trabajo, responsabilidad en el
+                    trabajo, capacidad de rápido aprendizaje, resolución de problemas </p>
+            </ul>
+        </div>
+        <div class="divImagenFormacion"><img src="../../assets/img/desarrollo-aplicaciones-web.jpg" class="imagenformacion"></div>
+    </div>
+   </div>
+
+   <div class="experiencia" id="experiencia">
+    <h1 style="border-bottom: 5px solid  #cf9a64; display: inline-block;">Experiencia laboral</h1>
+    <div class="flexExperiencia">
+        <div class="divExperiencia">
+            <h3><strong>Desarrolladora Front-end</strong></h3>
+            <p>Babel (Sevilla) | Hibrido | Abril 2024 - Junio 2024</p>
+            <ul>
+                <li> Análisis de proyectos antiguos en distintos lenguajes</li>
+                <li> Realización de distintas documentaciones</li>
+                <li> Desarrollo en Angular de proyectos en el departamento de Front-end utilizando
+                    distintas versiones de Angular y de NodeJs, trabajando principalmente en
+                    formularios con ReactiveForms configurando diferentes Interceptores entre otras
+                    actividades. Además de modificar la interfaz a gusto del cliente</li>
+                <li>Reuniones con clientes presentando los proyectos y realizando continuos feedback</li>
+            </ul>
+        </div>
+    </div>
+   </div>
+
+
+   <div class="proyectos" id="proyectos">
+    <h1  style="border-bottom: 5px solid  #cf9a64; display: inline-block;">Proyectos</h1>
+    <div class="flexProyecto">
+        <div class="imagenProyecto"><img src="../../assets/img/proyecto.PNG"></div>
+        <div class="contenidoProyecto">
+            <h3><strong> Gamer Place</strong></h3>
+            <p style="font-style: italic;">Proyecto creado y diseñado como trabajo de fin de grado</p>
+            <p>Gamer Place es una pagina de compra venta de videojuegos que te permitira comprar tus videojuegos favoritos nuevos o de segunda mano, ademas de darte la posibilidad de vender los videojuegos que ya no utilizas para poder adquirir nuevos. A parte, podras descubrir las opiniones de los demas usuarios y compartir vuestros gustos en el Chat de la pagina, donde los usuarios podran hablar entre ellos como en una comunidad</p>
+            <p><strong> El contenido de esta pagina es completamente ficticio y creado con la finalidad de que sea una pagina funcional por lo que los videojuegos y demas datos son ficticios.</strong></p>
+            <p><strong> Esta pagina esta subida en un servidor gratuito, por lo que la primera carga puede tardar unos minutos</strong></p>
+        </div>
+    </div>
+   </div>
+
+   <div class="contacto" id="contactos">
+    <h1 style="border-bottom: 5px solid  #cf9a64; display: inline-block">Contacta conmigo</h1>
+    <div class="flexContacto">
+        <div class="cuadrado"><img class="linkedin" src="../../assets/img/linkedin.png"></div>
+        <div class="cuadrado"><img class="linkedin" src="../../assets/img/logo.png"></div>
+        <div class="cuadrado"><img class="linkedin" src="../../assets/img/correo-electronico.png"></div>
+        <div class="cuadrado"><img class="linkedin" src="../../assets/img/perfil.png"></div>
+    </div>
+   </div>
+</div>
+
+<div class="footer">
+    <div class="flexFooter">
+        <div class="ff">Nombre</div>
+        <div class="ff">copyri</div>
+        <div class="ff flexinflex">
+            <div class="cuadradofooter">Linkedin</div>
+            <div class="cuadradofooter">Git</div>
+            <div class="cuadradofooter">Email</div>
+        </div>
+    </div>
+</div>
+
+<app-circulo></app-circulo>

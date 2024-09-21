@@ -1,0 +1,195 @@
+.divImagen{
+    width: 50%;
+}
+.imagenProfile{
+    width: 50%;
+    border-radius: 10%;
+    margin-left: 35%;
+}
+.flexSobremi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    padding-left: 1%;
+    padding-right: 12%;
+}
+.divContenido{
+    width: 50%;
+    margin-top: 2%;
+}
+.body{
+    margin-top: 5%;
+}
+
+
+
+
+.tecnologias{
+    margin-top: 8%;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 3cm);
+    grid-gap: 20px; /* Espacio entre cuadrados */
+    justify-content: center; /* Centrar el contenido en la página */
+    margin-top: 50px; /* Margen superior para centrar verticalmente */
+  }
+  
+  .square {
+    width: 3cm;
+    height: 3cm;
+    background-color: #deccb0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .square:hover {
+    transform: scale(1.1); /* Cambio de color al pasar el ratón */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .icon {
+    font-size: 24px; /* Ajusta el tamaño del icono */
+  }
+  
+  .tooltip {
+    position: absolute;
+    bottom: -25px; /* Ajusta la posición del tooltip */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap; /* Evitar que el texto se rompa */
+    font-size: 12px;
+    z-index: 10; /* Asegúrate de que esté por encima de otros elementos */
+    display: none; /* Oculta por defecto */
+  }
+
+
+
+
+.formacion{
+    margin-top: 8%;
+    text-align: center;
+}
+.flexFormacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    padding-left: 15%;
+    padding-right: 12%;
+    margin-top: 4%;
+    text-align: left;
+}
+.divContenidoFormacion{
+    width: 50%;
+    margin-top: 2%;
+}
+.divImagenFormacion{
+    width: 50%;
+}
+.imagenformacion{
+    width: 90%;
+    border-radius: 20px;
+    
+}
+
+.experiencia{
+    margin-top: 8%;
+    text-align: center;
+}
+
+.flexExperiencia{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.divExperiencia{
+    background-color: #deccb0;
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 2%;
+}
+
+.proyectos{
+    margin-top: 8%;
+    text-align: center;
+}
+
+.flexProyecto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    padding-left: 15%;
+    padding-right: 12%;
+    margin-top: 4%;
+    text-align: left;
+}
+.imagenProyecto{
+    width: 50%;
+
+}
+.contenidoProyecto{
+    width: 50%;
+}
+
+.contacto{
+    margin-top: 8%;
+    text-align: center;
+}
+
+.flexContacto{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.cuadrado{
+    margin: 1%;
+    padding: 1%;
+    width: 3cm;
+}
+
+.linkedin{
+    width: 90%;
+}
+
+.footer{
+    height: 10vh;
+    background: white; /* El fondo del footer es blanco */
+  background: linear-gradient(to top, white 95%, #e9decd 5%);
+}
+.flexFooter{
+    display: flex;
+    justify-content: space-around;
+}
+.flexinflex{
+    display: flex;
+}
+
+.ff{
+    margin: 1%;
+}
+.cuadradofooter{
+    margin: 2%;
+    border: 2px solid rgb(30, 147, 230);
+    padding: 1%;
+}

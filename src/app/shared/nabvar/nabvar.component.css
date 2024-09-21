@@ -1,0 +1,23 @@
+.navMio{
+    background: linear-gradient(to bottom, white 90%, #e9decd); /* Degradado sutil del blanco al color del body */
+    height:10vh;
+}
+.nombre{
+    color: #cf9a64;
+    font-size: 0.7cm;
+}
+.puesto{
+    font-size: 0.4cm;
+    margin-left: 3%;
+}
+
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+.lista{
+    margin-left: 3%;
+}

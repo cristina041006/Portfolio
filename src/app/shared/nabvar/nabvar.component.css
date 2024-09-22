@@ -27,6 +27,9 @@
 }
 
 @media (max-width: 540px) {
+    .navMio{
+        height: 12vh;
+    }
     .puesto{
         display: none;
     }

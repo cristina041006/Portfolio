@@ -169,6 +169,7 @@
 .contacto{
     margin-top: 8%;
     text-align: center;
+    margin-bottom: 3%;
 }
 
 .flexContacto{
@@ -189,14 +190,18 @@
 .footer{
     height: 10vh;
     background: white; /* El fondo del footer es blanco */
-  background: linear-gradient(to top, white 95%, #e9decd 5%);
+    background: linear-gradient(to top, white 90%, #e9decd); /* Degradado sutil del blanco al color del body */
 }
 .flexFooter{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin-left: 7%;
 }
 .flexinflex{
     display: flex;
+    width: 8cm;
+    
 }
 
 .ff{
@@ -204,10 +209,21 @@
 }
 .cuadradofooter{
     margin: 2%;
-    border: 2px solid rgb(30, 147, 230);
     padding: 1%;
 }
-
+.imagenFooter{
+    width: 50%;
+}
+.nombre{
+    color: #cf9a64;
+    font-size: 0.7cm;
+}
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
 @media (max-width: 1000px) {
     .imagenProfile{
         margin-top: 25%;
@@ -283,6 +299,9 @@
     .imagenProyecto{
         width: 90%;
     }
+    .linkedin{
+        width: 75%;
+    }
    
 }
 @media (max-width: 650px) {
@@ -302,8 +321,29 @@
     .divExperiencia{
         width: 70%;
     }
+    .linkedin{
+        width: 60%;
+    }
     
 }
+@media (max-width: 550px) {
+    .flexFooter{
+        flex-direction: column;
+    }
+    .footer{
+        height: 20vh;
+    }
+    .nombreFooter{
+        margin-top: 5%;
+    }
+    .linkedin{
+        width: 75%;
+    }
+    .cuadrado{
+        width: 2cm;
+    }
+}
+
 @media (max-width: 500px) {
     .titleSobreMi{
         font-size: 0.5cm;
@@ -329,6 +369,12 @@
     }
     .contenidoSub{
         font-size: 0.4cm;
+    }
+    .linkedin{
+        width: 75%;
+    }
+    .cuadrado{
+        width: 2cm;
     }
 }
 

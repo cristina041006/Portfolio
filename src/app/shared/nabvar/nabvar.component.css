@@ -1,3 +1,6 @@
+.container-fluid{
+background-color: white;
+}
 .navMio{
     background: linear-gradient(to bottom, white 90%, #e9decd); /* Degradado sutil del blanco al color del body */
     height:10vh;

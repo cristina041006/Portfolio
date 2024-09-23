@@ -226,4 +226,10 @@
     .cuadrado{
         width: 2cm;
     }
+    .footer{
+        height: 25vh;
+    }
+    .nombreFooter{
+        margin-top: 8%;
+    }
 }

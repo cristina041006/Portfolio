@@ -83,88 +83,6 @@
 
 
 
-.formacion{
-    margin-top: 8%;
-    text-align: center;
-}
-.flexFormacion{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: center;
-    padding-left: 19%;
- 
-    margin-top: 4%;
-    text-align: left;
-}
-.divContenidoFormacion{
-    width: 47%;
-    margin-top: 2%;
-}
-.divImagenFormacion{
-    width: 50%;
-    margin-left: 10%;
-}
-.divImagenFormacionCorta{
-    display: none;
-}
-.imagenformacion{
-    width: 40%;
-    border-radius: 20px;
-    
-}
-.imagenformacionCorta{
-   display: none;
-    
-}
-
-.experiencia{
-    margin-top: 8%;
-    text-align: center;
-}
-
-.flexExperiencia{
-    display: flex;
-    justify-content: center;
-    margin-top: 4%;
-}
-.divExperiencia{
-    background-color: #deccb0;
-    border-radius: 10px;
-    width: 50%;
-    height: auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: left;
-    padding: 2%;
-}
-
-.proyectos{
-    margin-top: 8%;
-    text-align: center;
-}
-
-.flexProyecto{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: center;
-    padding-left: 15%;
-    padding-right: 12%;
-    margin-top: 4%;
-    text-align: left;
-}
-.imagenProyecto{
-    width: 50%;
-
-}
-.imgP{
-    width: 90%;
-}
-.contenidoProyecto{
-    width: 50%;
-}
 
 .contacto{
     margin-top: 8%;
@@ -232,19 +150,6 @@
         grid-template-columns: repeat(4, 3cm);
         
       }
-
-    .imagenformacion{
-        width: 60%;
-      margin-top: 35%;
-      
-    }
-    .divExperiencia{
-        width: 60%;
-    }
-    .imgP{
-        width: 90%;
-        margin-top: 35%;
-    }
    
 }
 
@@ -261,43 +166,6 @@
     }
     .divContenido{
         width: 70%;
-    }
-    .imagenformacion{
-        display: none;
-    }
-    .imagenformacionCorta{
-        display: block;
-        width: 45%;
-        border-radius: 10px;
-         
-     }
-    .divImagenFormacionCorta{
-        display: contents;
-    }
-    .flexFormacion{
-        flex-direction: column-reverse;
-        align-items: center;
-        padding-left: 0%;
-    }
-    .divContenidoFormacion{
-        width: 70%;
-    }
-    .divExperiencia{
-        width: 65%;
-    }
-    .flexProyecto{
-        flex-direction: column;
-        align-items: center;
-    }
-    .imgP{
-        margin-top: 0%;
-        margin-bottom: 10%;
-    }
-    .contenidoProyecto{
-        width: 95%;
-    }
-    .imagenProyecto{
-        width: 90%;
     }
     .linkedin{
         width: 75%;
@@ -317,9 +185,6 @@
         justify-items: center;
         grid-template-columns: repeat(4, 2cm);
 
-    }
-    .divExperiencia{
-        width: 70%;
     }
     .linkedin{
         width: 60%;
@@ -355,31 +220,10 @@
     .contenido{
         font-size: 0.3cm;
     }
-    .titleForms{
-        font-size: 0.5cm;
-    }
-    .subTitle{
-        font-size: 0.4cm;
-    }
-    .divExperiencia{
-        width: 75%;
-    }
-    .titleEx{
-        font-size: 0.5cm;
-    }
-    .contenidoSub{
-        font-size: 0.4cm;
-    }
     .linkedin{
         width: 75%;
     }
     .cuadrado{
         width: 2cm;
-    }
-}
-
-@media (max-width: 400px) {
-    .titleForms{
-        font-size: 0.4cm;
     }
 }

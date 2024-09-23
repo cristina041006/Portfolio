@@ -2,11 +2,14 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { Icon } from '../interfaces/icon';
 import { CirculoComponent } from '../circulo/circulo.component';
+import { FormacionComponent } from '../formacion/formacion.component';
+import { ExperienciaComponent } from '../experiencia/experiencia.component';
+import { ProyectosComponent } from '../proyectos/proyectos.component';
 
 @Component({
   selector: 'app-body',
   standalone: true,
-  imports: [CommonModule, CirculoComponent],
+  imports: [CommonModule, CirculoComponent, FormacionComponent, ExperienciaComponent, ProyectosComponent],
   templateUrl: './body.component.html',
   styleUrl: './body.component.css'
 })

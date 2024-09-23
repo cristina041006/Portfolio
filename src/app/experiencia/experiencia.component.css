@@ -1,0 +1,61 @@
+
+
+.experiencia{
+    margin-top: 8%;
+    text-align: center;
+}
+
+.flexExperiencia{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.divExperiencia{
+    background-color: #deccb0;
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 2%;
+}
+
+@media (max-width: 1000px) {
+  
+    .divExperiencia{
+        width: 60%;
+    }
+
+   
+}
+
+@media (max-width: 800px) {
+
+    .divExperiencia{
+        width: 65%;
+    }
+
+   
+}
+@media (max-width: 650px) {
+    .divExperiencia{
+        width: 70%;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .contenido{
+        font-size: 0.3cm;
+    }
+    .divExperiencia{
+        width: 75%;
+    }
+    .titleEx{
+        font-size: 0.5cm;
+    }
+    .contenidoSub{
+        font-size: 0.4cm;
+    }
+   
+}
